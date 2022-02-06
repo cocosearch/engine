@@ -1,0 +1,30 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "server"
+version = "0.0.1"
+edition = "2021"
+authors = ["Jia Jia <angersax@sina.com>"]
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "README.md"
+]
+description = "A markdown editor"
+repository = "https://github.com/cocoedit"
+documentation = "https://cocoedit.github.io"
+homepage = "https://github.com/cocoedit"
+keywords = ["editor", "markdown"]
+categories = ["editor"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[[bin]]
+name = "cocoedit"
+path = "src/main.rs"
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+
+[badges]
+maintenance = { status = "actively-developed" }

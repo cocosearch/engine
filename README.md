@@ -84,3 +84,4 @@ Project License can be found [here](LICENSE).
 ## Reference
 
 - [rocket](https://rocket.rs/)
+- [rocket-examples](https://github.com/SergioBenitez/Rocket/tree/master/examples)
